@@ -58,7 +58,7 @@ rs.initiate({
 The nodess elect a primary, the rest become secondary. Connect to all three nodes using the `mongo` client (changing the port number for each node) and verify that there is one primary and two secondaries.
 
 ## Test Using Client Application
-The test application `mongo-school-client` is a sample application to manage course enrolment. Running the command `java -jar ./mongo-school-client physics Michael 25 75.0` attempt to enrol the student Michael in the course physics. His age is 25 and his GPA is 75.0.
+The test application `mongo-school-client` is a sample application to manage course enrolment. Running the command `java -jar ./mongo-school-client.jar physics Michael 25 75.0` attempt to enrol the student Michael in the course physics. His age is 25 and his GPA is 75.0.
 
 This program (source code provided) will attempt to connect to a mongo server and add the data to a collection called `physics`, which doesn't exist. So we need to create it:
 ```
