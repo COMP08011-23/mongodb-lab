@@ -10,7 +10,7 @@ In this lab you'll:
 - Verify the fault tolerance of the cluster by injecting failures and testing behaviour using a client app.
 
 ## Introduction
-MongoDB uses the concept of a replica set to achieve replication. Nodes in a cluster can be added to a replica set. A primary node will then be elected automatically from among the members of the replica set, and data will be replicated to all the nodes. Clients can chose what kind of write behaviour they want depending on their consistency/availability requirements.
+MongoDB uses the concept of a replica set to achieve replication. Nodes in a cluster can be added to a replica set. A primary node will then be elected automatically from among the members of the replica set, and data will be replicated to all the nodes. Clients [can chose what kind of write behaviour they want](https://www.mongodb.com/docs/v5.0/core/replica-set-write-concern/) depending on their consistency/availability requirements.
 
 ## Getting Started
 1. Log in to your [Azure Lab Services](https://labs.azure.com/) VM.
